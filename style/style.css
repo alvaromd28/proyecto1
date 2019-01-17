@@ -31,6 +31,13 @@
 
 .scroll{
   overflow-y: scroll;
-  height: 200px;
+  height: 400px;
 }
 
+.msg{
+  height: 120px;
+}
+
+input::placeholder {
+  
+}
