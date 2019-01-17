@@ -49,62 +49,26 @@
           <h1> MESSAGES HERE </h1>
         </div>
         <div class="panel-body text-center scroll">
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
-          <h3> Nosequien@nosequien </h3>
-          <p> Odio los Lunes </p>
         </div>
       </div>
       <div class="col-sm-1"></div>
     </div>
   </div>
 
-
-  <div class="row">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4 text-center">
-      <input type="text" class="form-control" placeholder="Type here your username" id="usr">
-      <br>
-      <input type="text" class="form-control msg" placeholder="Write here your comment" id="usr">
-      <br>
-      <input type="button" class="btn btn-info" value="Input Button">
+  <form method="POST" action="main.php">
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 text-center">
+        <input type="text" name="userName" class="form-control" placeholder="Type here your username" id="usr">
+        <br>
+        <input type="text" name="msg" class="form-control msg" placeholder="Write here your comment" id="usr">
+        <br>
+        <input type="submit" name="submit" class="btn btn-info" value="Input Button">
+      </div>
+      <div class="col-sm-4"></div>
     </div>
-    <div class="col-sm-4"></div>
+  </form>
   </div>
-  </div>
-
-
-  <div></div>
-
 </body>
 
 </html>
