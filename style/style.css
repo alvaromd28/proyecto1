@@ -18,3 +18,26 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+.table{
+  width: auto;
+  min-height: 200px;
+  max-height: 300px;
+}
+
+.main-panel{
+  border: 1px solid black!important;
+}
+
+.scroll{
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.msg{
+  height: 120px;
+}
+
+input::placeholder {
+  
+}
