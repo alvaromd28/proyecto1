@@ -58,7 +58,7 @@
                 $msg = $_POST['msg'];
                 insert ($userName, $msg);
             }
-            /*get_msg();*/
+            get_msg();
           ?>
         </div>
       </div>

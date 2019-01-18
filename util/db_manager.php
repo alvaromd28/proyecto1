@@ -20,18 +20,18 @@
         $conn->query($sql);
     }
 
-    /*/function get_msg (){
+    function get_msg (){
         $sql = "SELECT userName, msg FROM information ORDER BY id DESC LIMIT 20";
         $conn = dbConnect("localhost","root","","icsitter");
         $result = $conn->query($sql);
 
         if (mysqli_num_rows($result) > 0) {
             while($row = mysqli_fetch_assoc($result)) {
-                echo $row["userName"]. " " . $row["msg"]. "<br>";
+                echo $row["userName"]. ": " . $row["msg"]. "<br>";
             }
         } else {
             echo "0 results";
         }
-    }*/
+    }
 ?>
    
