@@ -16,7 +16,6 @@
     function insert ($userName, $msg){
         $val = "'$userName', '$msg'";
         $sql = "INSERT INTO information (userName, msg) VALUES (".$val.")";
-        echo $sql;
         $conn = dbConnect("localhost","root","","icsitter");
         $conn->query($sql);
     }

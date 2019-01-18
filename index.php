@@ -49,13 +49,24 @@
           <h1> MESSAGES HERE </h1>
         </div>
         <div class="panel-body text-center scroll">
+          <?php
+            require_once('util/db_manager.php');
+            
+            if (isset($_POST['submit'])){
+                
+                $userName = $_POST['userName'];
+                $msg = $_POST['msg'];
+                insert ($userName, $msg);
+            }
+            /*get_msg();*/
+          ?>
         </div>
       </div>
       <div class="col-sm-1"></div>
     </div>
   </div>
 
-  <form method="POST" action="main.php">
+  <form method="POST" action="#">
     <div class="row">
       <div class="col-sm-4"></div>
       <div class="col-sm-4 text-center">
