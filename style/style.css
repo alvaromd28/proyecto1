@@ -1,3 +1,7 @@
+body{
+  background-color: #2F2F2F;.
+}
+
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -19,12 +23,6 @@
   transform: translateY(4px);
 }
 
-.table{
-  width: auto;
-  min-height: 200px;
-  max-height: 300px;
-}
-
 .main-panel{
   border: 1px solid black!important;
 }
@@ -38,6 +36,6 @@
   height: 120px;
 }
 
-body{
-  
+.mainnavbar{
+  background-color: crimson 
 }

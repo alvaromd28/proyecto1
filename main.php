@@ -1,11 +1,9 @@
 <?php
     require_once('util/db_manager.php');
-    
-    if (isset($_POST['submit'])){
-        
-        $userName = $_POST['userName'];
-        $msg = $_POST['msg'];
+    if (isset($_POST['submmit'])){
+        $userName = $_POST['name'];
+        $msg = $_POST['text'];
         insert ($userName, $msg);
     }
-    /*get_msg();*/
+    get_msg();
 ?>
