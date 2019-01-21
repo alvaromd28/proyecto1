@@ -35,14 +35,11 @@
           <li><a href="#"><i class="fas fa-bell"></i></a></li>
           <li><a href="#"><i class="far fa-envelope"></i></a></li>
         </ul>
-
       </div>
     </div>
   </nav>
 
-
-  </div>
-
+<div class="container">
   <div class="row">
     <div class="col-sm-1"></div>
     <div class="col-sm-10">
@@ -66,21 +63,22 @@
         <div class="col-sm-1"></div>
       </div>
     </div>
-
-    <form method="POST" action="#">
-      <div class="row">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4 text-center">
-          <input type="text" name="userName" class="form-control" placeholder="Type here your username" id="usr">
-          <br>
-          <textarea type="text" name="msg" class="form-control msg" placeholder="Write here your comment" id="usr"></textarea>
-          <br>
-          <input type="submit" name="submit" class="btn btn-info" value="Enviar">
-        </div>
-        <div class="col-sm-4"></div>
-      </div>
   </div>
+
+  <form method="POST" action="#">
+    <div class="row">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4 text-center">
+        <input type="text" name="userName" class="form-control" placeholder="Type here your username" id="usr">
+        <br>
+        <textarea type="text" name="msg" class="form-control msg" placeholder="Write here your comment" id="usr"></textarea>
+        <br>
+        <input type="submit" name="submit" class="btn btn-info" value="Enviar">
+      </div>
+      <div class="col-sm-4"></div>
+    </div>
   </form>
+</div>
 </body>
 
 </html>
